@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kid's Clothing Store</title>
+    <link rel="stylesheet" href="kids.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Kid's Clothing Collection</h1>
+        <div id="filters">
+            <button class="filter-btn" onclick="filterItems('all')">All</button>
+            <button class="filter-btn" onclick="filterItems('boys')">Boys</button>
+            <button class="filter-btn" onclick="filterItems('girls')">Girls</button>
+        </div>
+    </header>
+
+    <section id="product-grid">
+        <!-- Example product -->
+        <div class="product-item boys">
+            <img src="images/img1.jpg" alt="T-shirt for boys">
+            <h3>Blue T-shirt</h3>
+            <p>$12.99</p>
+        </div>
+
+        <div class="product-item girls">
+            <img src="images/img2.jpg" alt="Dress for girls">
+            <h3>Pink Dress</h3>
+            <p>$18.99</p>
+        </div>
+
+        <div class="product-item boys">
+            <img src="images/img3.jpg" alt="Shorts for boys">
+            <h3>Summer Shorts</h3>
+            <p>$15.99</p>
+        </div>
+
+        <div class="product-item girls">
+            <img src="images/img4.jpg" alt="Dress for girls">
+            <h3>Floral Dress</h3>
+            <p>$19.99</p>
+        </div>
+
+        <!-- Add more products as needed up to 10-15 images -->
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
